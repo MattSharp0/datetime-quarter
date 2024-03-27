@@ -34,7 +34,6 @@ class DateQuarter:
 
     def __gt__(self, other):
         if isinstance(other, datetime.date):
-            print("is datetime.date")
             return self.__gt__(DateQuarter.from_date(other))
         if isinstance(other, DateQuarter):
             return self._year > other._year or (self._year == other._year and self._quarter > other._quarter)

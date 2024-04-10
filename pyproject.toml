@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "date-quarter_v2"
+name = "date-quarter"
 version = "0.1.0"
 description = "Simple quarter support for python `datetime.date`. Fork of https://github.com/BetaS/datetime-quarter.git with additional functionality"
 authors = ["BetaS <thou1999@gmail.com>","Matt Sharp <matthew.sharp3@gmail.com>"]

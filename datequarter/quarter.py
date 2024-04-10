@@ -113,7 +113,7 @@ class DateQuarter:
         Return percentage of quarter before or after a date.\n
         Inclusive of start / end date\n
         When <is_start_date> = True will return the days *after* the provided date\n
-        See also: active_days_in_quarter()
+        See also: days_active()
         """
         return min(round(self.days_active(start_or_end_date, is_start_date) / self.days_in_quarter(), 4), 1.0000)
 
